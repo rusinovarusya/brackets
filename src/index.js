@@ -1,8 +1,4 @@
 module.exports = function check(str, bracketsConfig) {
-  /*for (let key of str) {
-    if (bracketsConfig[0].indexOf(key) != -1)
-  }*/
-  // your solution
   let kindOfBrackets = (bracket) => {
     switch (bracket) {
       case '(': return 1;
